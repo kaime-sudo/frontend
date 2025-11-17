@@ -18,10 +18,11 @@ const pillars = [
   },
 ];
 
+// ✅ Images réelles placées dans /frontend/public/images/
 const gallery = [
-  { src: '/images/fresque-ufhb.svg', alt: "Atelier à l'UFHB" },
-  { src: '/images/fresque-journee-carriere.svg', alt: 'Journée carrière' },
-  { src: '/images/cartes-climat.svg', alt: 'Cartes du climat' },
+  { src: '/images/fresque-ufhb.jpg', alt: "Atelier de la Fresque du Climat à l'UFHB, Abidjan" },
+  { src: '/images/fresque-Journee_carriere.jpeg', alt: "Journée carrière Fresque du Climat — Étudiants et jeunes professionnels" },
+  { src: '/images/cartes-climat.jpg', alt: "Cartes pédagogiques du climat utilisées lors des ateliers en Côte d'Ivoire" },
 ];
 
 const events = [
@@ -85,7 +86,7 @@ export default function Home() {
             <div className="order-1 md:order-2">
               <img
                 src="/images/carte-ivoire.svg"
-                alt="Carte stylisée de la Côte d'Ivoire"
+                alt="Carte stylisée de la Côte d'Ivoire avec repères Abidjan, Daloa, Bingerville"
                 className="rounded-2xl shadow-lg ring-1 ring-slate-200"
               />
             </div>
@@ -93,6 +94,7 @@ export default function Home() {
         </div>
       </section>
 
+      {/*Section mise à jour */}
       <section className="py-16 bg-gfi-light">
         <div className="container mx-auto px-4">
           <div className="text-center mb-10">
@@ -105,7 +107,8 @@ export default function Home() {
                 key={image.alt}
                 src={image.src}
                 alt={image.alt}
-                className="h-48 rounded-xl object-cover shadow-sm ring-1 ring-slate-200"
+                loading="lazy"
+                className="h-48 w-full rounded-xl object-cover shadow-sm ring-1 ring-slate-200"
               />
             ))}
           </div>
