@@ -1,0 +1,21 @@
+<svg width="640" height="400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="hero" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#003366"/>
+      <stop offset="1" stop-color="#00619A"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" rx="32" fill="url(#hero)"/>
+  <g fill="#FFC72C">
+    <rect x="60" y="90" width="100" height="90" rx="12" opacity="0.8"/>
+    <rect x="190" y="90" width="100" height="90" rx="12" opacity="0.8"/>
+    <rect x="320" y="90" width="100" height="90" rx="12" opacity="0.8"/>
+    <rect x="450" y="90" width="130" height="90" rx="12" opacity="0.5"/>
+  </g>
+  <text x="80" y="250" font-family="Inter, Arial, sans-serif" font-size="28" fill="#F8F9FA" font-weight="600">
+    Atelier UFHB
+  </text>
+  <text x="80" y="285" font-family="Inter, Arial, sans-serif" font-size="18" fill="#E3ECF5">
+    Déclic climat pour les étudiants
+  </text>
+</svg>

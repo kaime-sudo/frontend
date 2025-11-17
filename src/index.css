@@ -1,0 +1,21 @@
+@layer base {
+  :root {
+    --color-gfi-primary: #003366;
+    --color-gfi-secondary: #FFC72C;
+    --color-gfi-dark: #0A192F;
+    --color-gfi-light: #F8F9FA;
+  }
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+  @apply bg-gray-50 text-slate-900 antialiased;
+}
+
+img {
+  @apply w-full object-cover;
+}

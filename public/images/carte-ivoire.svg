@@ -1,0 +1,18 @@
+<svg width="640" height="400" viewBox="0 0 640 400" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <linearGradient id="cote" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#003366"/>
+      <stop offset="1" stop-color="#005A9C"/>
+    </linearGradient>
+  </defs>
+  <rect width="640" height="400" fill="#F8F9FA"/>
+  <path
+    d="M360 60c-30 20-56 18-78 42-15 16-24 38-41 53-19 17-46 25-59 46-11 18-8 41-1 61 8 22 20 42 30 63 10 21 17 46 37 58 24 15 56 4 85 2 38-3 74 12 111 6 31-5 62-20 81-45 19-26 24-61 21-93-3-31-19-60-30-89-11-29-18-60-36-85-17-22-41-35-68-37-17-1-35 4-51 18z"
+    fill="url(#cote)"
+    opacity="0.95"
+  />
+  <circle cx="430" cy="150" r="6" fill="#FFC72C"/>
+  <circle cx="410" cy="210" r="6" fill="#FFC72C"/>
+  <circle cx="460" cy="250" r="6" fill="#FFC72C"/>
+  <text x="420" y="140" font-size="16" fill="#FFC72C" font-family="Inter, Arial, sans-serif">Abidjan</text>
+</svg>
